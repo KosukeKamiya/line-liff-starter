@@ -29,23 +29,22 @@ function initializeApp(data) {
     document.getElementById('sendmessagebutton').addEventListener('click', function () {
         liff.sendMessages([{
             type: 'text',
-            text: "You've successfully sent a message! Hooray!"
+            text: "message 1"
         }, {
-            type: 'sticker',
-            packageId: '2',
-            stickerId: '144'
+            type: 'text',
+            text: 'message 2',
         },{
             type: 'text',
-            text: "3"
+            text: "message 3"
         },{
             type: 'text',
-            text: "4"
+            text: "message 4"
         },{
             type: 'text',
-            text: "5"
+            text: "message 5"
         },{
             type: 'text',
-            text: "6"
+            text: "message 6"
         }]).then(function () {
             window.alert("Message sent");
         }).catch(function (error) {
