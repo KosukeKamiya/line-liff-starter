@@ -34,6 +34,18 @@ function initializeApp(data) {
             type: 'sticker',
             packageId: '2',
             stickerId: '144'
+        },{
+            type: 'text',
+            text: "3"
+        },{
+            type: 'text',
+            text: "4"
+        },{
+            type: 'text',
+            text: "5"
+        },{
+            type: 'text',
+            text: "6"
         }]).then(function () {
             window.alert("Message sent");
         }).catch(function (error) {
